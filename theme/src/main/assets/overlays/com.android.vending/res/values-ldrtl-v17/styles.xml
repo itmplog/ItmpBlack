@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Google Play's Styles-->
+
+<resources>
+    <style name="BundleActionButton.TextView" parent="@style/BundleActionButton">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/explore_button_bg</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:paddingStart">28.0dip</item>
+        <item name="android:paddingEnd">28.0dip</item>
+    </style>
+    <style name="CirclesButton" parent="@style/PlayPlainText">
+        <item name="android:textSize">@dimen/play_price_small_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">@dimen/standard_button_minwidth</item>
+        <item name="android:minHeight">@dimen/play_profile_button_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingStart">30.0dip</item>
+        <item name="android:paddingEnd">30.0dip</item>
+    </style>
+    <style name="OnboardText" parent="@style/PlayPlainText">
+        <item name="android:textSize">@dimen/play_onboard__onboard_v2_tutorial_page_title_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingExtra">@dimen/play_onboard__onboard_v2_tutorial_page_title_extra_line_spacing</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="PlayAdLabelBaseline" parent="@style/PlayMediumPlainText">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/play_ad_label</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingStart">3.0dip</item>
+        <item name="android:paddingEnd">3.0dip</item>
+    </style>
+    <style name="PlayClusterMore" parent="@style/PlayMediumBoldText">
+        <item name="android:textSize">@dimen/play_cluster_header_more_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingTop">@dimen/play_cluster_header_more_top_padding</item>
+        <item name="android:paddingBottom">@dimen/play_cluster_header_more_bottom_padding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingStart">@dimen/play_cluster_header_more_xpadding</item>
+        <item name="android:paddingEnd">@dimen/play_cluster_header_more_xpadding</item>
+        <item name="playCardBackgroundColor">@color/play_card_light_background</item>
+        <item name="playCardCornerRadius">@dimen/play_action_button_corner</item>
+        <item name="playCardElevation">1.0dip</item>
+        <item name="playCardInset">0.0dip</item>
+        <item name="playCardClipToOutline">true</item>
+	</style>
+    <style name="PlayImageClusterSubtitle" parent="@style/PlayClusterSubtitle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:paddingStart">@dimen/play_follow_cluster_text_padding</item>
+        <item name="android:paddingEnd">@dimen/play_follow_cluster_text_padding</item>
+    </style>
+    <style name="PlayImageClusterTitle" parent="@style/PlayPlainText">
+        <item name="android:textSize">@dimen/play_person_follow_cluster_header_title_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">@dimen/play_follow_cluster_title_top_margin</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingStart">@dimen/play_follow_cluster_text_padding</item>
+        <item name="android:paddingEnd">@dimen/play_follow_cluster_text_padding</item>
+    </style>
+    <style name="QuicklinksPillTitle" parent="@style/PlayCardAction">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+    <style name="WarmWelcomeV2CardAction" parent="@style/PlayMediumBoldText">
+        <item name="android:textSize">@dimen/play_card_action_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minWidth">88.0dip</item>
+        <item name="android:minHeight">36.0dip</item>
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+        <item name="playAccessibilityClassOverride">android.widget.Button</item>
+    </style>
+    <style name="WarmWelcomeV2CardDescription" parent="@style/PlayEduCardDescription">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingStart">@dimen/warm_welcome_v2_card_text_padding</item>
+        <item name="android:paddingEnd">@dimen/warm_welcome_v2_card_text_padding</item>
+    </style>
+    <style name="WarmWelcomeV2CardTitle" parent="@style/PlayEduCardTitle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingStart">@dimen/warm_welcome_v2_card_text_padding</item>
+        <item name="android:paddingEnd">@dimen/warm_welcome_v2_card_text_padding</item>
+    </style>
+</resources>

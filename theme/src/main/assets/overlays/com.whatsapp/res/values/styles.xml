@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing WhatsApp's Styles-->
+
+<resources>
+	<style name="AttachPickerLabel">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+	<style name="Base.Theme.AppCompat.Light" parent="@style/Base.V7.Theme.AppCompat.Light" />
+	<style name="Base.Theme.AppCompat.Light.DarkActionBar" parent="@style/Base.Theme.AppCompat.Light" />
+    <style name="Base.Theme.AppCompat.Light.Dialog" parent="@android:style/Theme.Material.Dialog" />
+	<style name="Base.V7.Theme.AppCompat.Light" parent="@style/Platform.AppCompat.Light" />
+    <style name="CardTitle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+	</style>
+    <style name="ListItemTitle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="ListItemSubtitle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@*common:color/midnight_text</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="SettingsCategoryFooter" parent="@style/Text.Description">
+        <item name="android:textColor">@*common:color/midnight_text</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:background">@*common:color/midnight_primary</item>
+        <item name="android:padding">12.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ff333333</item>
+        <item name="android:shadowColor">@android:color/white</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.0</item>
+        <item name="android:lineSpacingMultiplier">1.25</item>
+    </style>
+    <style name="Text.Description" parent="@style/Text">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">@android:color/white</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.0</item>
+        <item name="android:lineSpacingMultiplier">1.25</item>
+    </style>
+	<style name="Theme.ActionBar.SubtitleTextStyle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">#eeffffff</item>
+    </style>
+	<style name="Theme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+	<style name="Theme.AppCompat.Light.DarkActionBar" parent="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+    <style name="Theme.AppBase" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@*common:color/midnight_primary</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="actionModeBackground">@color/action_mode</item>
+        <item name="toolbarStyle">@style/Widget.Styled.Toolbar</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+	<style name="Theme.App" parent="@style/Theme.AppBase" />
+    <style name="Widget.Styled.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
+        <item name="titleTextStyle">@style/Theme.ActionBar.TitleTextStyle</item>
+        <item name="subtitleTextStyle">@style/Theme.ActionBar.SubtitleTextStyle</item>
+        <item name="elevation">0.0dip</item>
+    </style>
+    <style name="Widget.Styled.Toolbar" parent="@android:style/Widget.Material.Toolbar">
+        <item name="titleTextAppearance">@style/Theme.ActionBar.TitleTextStyle</item>
+        <item name="subtitleTextAppearance">@style/Theme.ActionBar.SubtitleTextStyle</item>
+    </style>
+</resources>

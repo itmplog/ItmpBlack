@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+<resources>
+	<!--Preparing all style themes for system-wide changes-->
+		<!--Animation Changes-->
+			<style name="Animation.Activity" parent="@android:style/Animation.Activity">
+				<item name="android:activityOpenEnterAnimation">@anim/activity_open_enter</item>
+				<item name="android:activityOpenExitAnimation">@anim/activity_open_exit</item>
+				<item name="android:activityCloseEnterAnimation">@anim/activity_close_enter</item>
+				<item name="android:activityCloseExitAnimation">@anim/activity_close_exit</item>
+			</style>
+
+	        <style name="Theme" parent="@android:style/Theme">
+				<item name="android:fastScrollTextColor">@android:color/white</item>
+				<item name="android:windowAnimationStyle">@style/Animation.Activity</item>
+			    <item name="android:navigationBarColor">@*common:color/midnight_primary</item>
+			    <item name="android:statusBarColor">@*common:color/sb</item>
+		        <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+			</style>
+
+		<!--Material Light - Style Manual Override-->	
+			<style name="Theme.Material.Light" parent="@android:style/Theme.Material.Light">
+				<item name="android:colorEdgeEffect">@color/colorEdgeEffect</item>		
+				<item name="android:fastScrollTextColor">@android:color/white</item>
+				<item name="android:windowAnimationStyle">@style/Animation.Activity</item>
+			</style>
+			
+		<!--Material Light Dark Action Bar - Style Manual Override-->
+		<style name="Theme.Material.Light.DarkActionBar" parent="@android:style/Theme.Material.Light.DarkActionBar">
+			<item name="android:fastScrollTextColor">#ffffffff</item>
+			<item name="android:windowAnimationStyle">@style/Animation.Activity</item>
+			<item name="android:colorPrimary">@*common:color/ab</item>
+			<item name="android:colorPrimaryDark">@*common:color/sb</item>
+    		<item name="android:statusBarColor">@*common:color/sb</item>
+    		<item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+		</style>
+
+    <style name="TextAppearance.Holo" parent="@android:style/TextAppearance" />
+    <style name="TextAppearance.Holo.Light" parent="@style/TextAppearance.Holo" />
+	
+
+		<style name="Theme.Material.Settings" parent="@*android:style/Theme.Material">
+			<item name="android:navigationBarColor">@*common:color/midnight_primary</item>
+			<item name="android:statusBarColor">@*common:color/sb</item>
+		    <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+    </style>
+	<style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar">
+		<item name="android:background">@*common:drawable/settings_header</item>
+    </style>
+	<style name="Theme.ActionBar.Holo" parent="@android:style/Widget.Material.ActionBar">
+		<item name="android:background">@drawable/ab_dark_holo</item>
+    </style>
+
+			<style name="Theme.DeviceDefault" parent="@style/Theme.Material" >
+				<item name="android:colorControlHighlight">#0DFFFFFF</item>
+			</style>
+
+        	<style name="Theme.DeviceDefault.Light" parent="@android:style/Theme.Material" />
+			<style name="Theme.DeviceDefault.Light.Dialog" parent="@android:style/Theme.Material.Dialog" />
+			<style name="Theme.DeviceDefault.Light.Dialog.MinWidth" parent="@android:style/Theme.Material.Dialog.MinWidth" />
+			<style name="Theme.DeviceDefault.Light.Dialog.NoActionBar" parent="@android:style/Theme.Material.Dialog.NoActionBar" />
+			<style name="Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth" parent="@android:style/Theme.Material.Dialog.NoActionBar.MinWidth" />
+			<style name="Theme.DeviceDefault.Light.DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge" />
+			<style name="Theme.DeviceDefault.Light.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.Material.DialogWhenLarge.NoActionBar" />
+			<style name="Theme.DeviceDefault.Light.Dialog.Alert" parent="@android:style/Theme.Material.Dialog.Alert" />
+			<style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@style/Theme.Material" /> <!--This includes the power menu for the system-->
+			<style name="Theme.DeviceDefault.Settings" parent="@style/Theme.Material.Settings" />
+			<style name="Theme.DeviceDefault.Resolver" parent="@style/Theme.Material">	
+				<item name="android:backgroundDimEnabled">true</item>
+                <item name="android:textColor">#ffffffff</item>
+				<item name="android:colorAccent">@*common:color/midnight_theme</item>
+				<item name="android:windowBackground">@android:color/transparent</item>
+				<item name="android:windowContentOverlay">@null</item>
+				<item name="android:windowDrawsSystemBarBackgrounds">false</item>
+				<item name="android:windowIsTranslucent">true</item>
+				<item name="android:windowNoTitle">true</item>
+				<item name="android:windowTranslucentStatus">false</item>
+				<item name="android:windowTranslucentNavigation">false</item>
+			</style>
+    <!-- Framework Slider Buttons Textcolor -->
+    <style name="TextAppearance.Holo.Widget.Switch" parent="@android:style/TextAppearance.Holo.Small">
+        <item name="android:textColor">#EEFF4081</item>
+    </style>
+    
+    <style name="TextAppearance.Holo.DialogWindowTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/holo_blue_light</item>
+    </style>
+    <style name="TextAppearance.Holo.Light.DialogWindowTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/holo_blue_light</item>
+    </style>
+	
+		<!--Material Dark - Style Manual Override-->
+			<style name="Theme.Material" parent="@android:style/Theme.Material" >
+				<item name="dialogBackground">@*common:color/tr</item>
+				<item name="android:colorForeground">@android:color/transparent</item>
+				<item name="android:colorControlHighlight">@*common:color/midnight_theme</item>
+				<item name="android:colorPrimary">@*common:color/ab</item>
+				<item name="android:colorPrimaryDark">@*common:color/sb</item>
+				<item name="android:navigationBarColor">@*common:color/midnight_primary</item>
+				<item name="android:fastScrollTextColor">@android:color/white</item>
+				<item name="android:windowAnimationStyle">@style/Animation.Activity</item>
+    			<item name="android:statusBarColor">@*common:color/sb</item>
+    		    <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+			</style>
+			<style name="Theme.Holo" parent="@android:style/Theme.Holo">
+				<item name="android:buttonStyle">@style/Button</item>
+				<item name="android:colorControlHighlight">@*common:color/red_tr</item>
+				<item name="android:windowBackground">@*common:color/midnight_primary</item>
+				<item name="android:navigationBarColor">@*common:color/midnight_primary</item>
+				<item name="android:switchStyle">@*android:style/Widget.Material.CompoundButton.Switch</item>
+				<item name="android:colorPrimaryDark">@*common:color/midnight_primary</item>
+			    <item name="android:statusBarColor">@*common:color/midnight_primary</item>
+    		    <item name="android:actionBarStyle">@style/Theme.ActionBar.Holo</item>
+				<item name="android:alertDialogTheme">@style/Theme.Holo.Dialog.Alert</item>
+				<item name="android:windowAnimationStyle">@style/Animation.Activity</item>
+				<item name="android:colorButtonNormal">@*common:color/ab</item>
+				<item name="android:panelColorBackground">@*common:color/midnight_primary</item>				
+			</style>
+		<!--Holo - Style Button materialization -->			
+			<style name="Button" parent="@android:style/Widget.Material.Button">
+				<item name="android:textColor">#ffffffff</item>
+				<item name="android:colorButtonNormal">@*common:color/ab</item>
+			</style>			
+			<style name="Theme.Holo.Dialog" parent="@android:style/Theme.DeviceDefault.Dialog" >
+				<item name="android:windowShowWallpaper">false</item>
+			</style>
+			<style name="Theme.Holo.Dialog.Alert" parent="@android:style/Theme.Material.Dialog.Alert">
+				<item name="android:windowShowWallpaper">false</item>
+			</style>
+			<!-- Notification content styles -->
+
+		<style name="TextAppearance.StatusBar" parent="@android:style/TextAppearance">
+         <item name="android:textAppearance">?android:textAppearanceSmall</item>
+		 <item name="android:textColor">#ffffffff</item>
+       </style>     
+    <style name="TextAppearance.StatusBar.EventContent">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Title">
+        <item name="android:textColor">#ffffffff</item>
+  </style>
+    <style name="TextAppearance.StatusBar.EventContent.Line2">
+        <item name="android:textColor">#ffffffff</item>	
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Info">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Time">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Emphasis">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+
+	 <!-- Notificationtextcolor -->
+	<style name="TextAppearance.Material.Notification" parent="@android:style/TextAppearance.Material">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.Material.Notification.Emphasis" parent="@style/TextAppearance.Material.Notification">
+        <item name="android:textColor">#66ffffff</item>
+    </style>
+    <style name="TextAppearance.Material.Notification.Info" parent="@style/TextAppearance.Material.Notification">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.Material.Notification.Line2" parent="@style/TextAppearance.Material.Notification">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.Material.Notification.Time" parent="@style/TextAppearance.Material.Notification">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.Material.Notification.Title" parent="@style/TextAppearance.Material.Notification">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+</resources>

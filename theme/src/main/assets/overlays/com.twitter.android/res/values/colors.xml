@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Twitter's Colors-->
+
+<resources>
+    <color name="twitter_blue">@*common:color/ab</color>
+    <color name="dark_blue">@*common:color/ab</color>
+	<color name="deep_blue">@*common:color/midnight_primary</color>
+    <color name="faded_blue">@*common:color/midnight_primary</color>
+    <color name="light_blue">@*common:color/theme_color</color>
+	<color name="pressed">@*common:color/red_tr</color>
+</resources>

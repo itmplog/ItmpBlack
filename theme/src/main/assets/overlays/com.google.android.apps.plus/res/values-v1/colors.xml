@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Google Plus' Colors-->
+
+<resources>
+    <color name="cdt0">@*common:color/midnight_primary</color>
+    <color name="cdt1">#ffaaaaaa</color>
+    <color name="cdt2">@color/cdt0</color>
+    <color name="cdt3">@*common:color/midnight_white</color>
+    <color name="cdt4">@*common:color/midnight_white</color>
+    <color name="cdt5">@color/cdt3</color>
+    <color name="cdt6">#616161</color>
+    <color name="cdt7">#66777777</color>
+    <color name="cdt8">@*common:color/midnight_white</color>
+    <color name="cdt9">@color/cdt0</color>
+
+    <color name="main_background_color">@*common:color/midnight_primary</color> <!--This adjusts news feed universal tint (cards, post background, etc.)-->
+    <color name="white_background_color">@*common:color/tr</color> <!--This controls new post background and other non-news feed activities-->
+    <color name="dialog_background_color">#ff323232</color> <!--This controls new G+'s dialog background and popup background-->
+
+	
+	</resources>

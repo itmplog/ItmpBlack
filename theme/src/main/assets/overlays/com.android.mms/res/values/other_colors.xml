@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+		<color name="background">@*common:color/midnight_primary</color>
+	
+    <!--Conversation list view default colors-->
+		<color name="default_conv_list_background">@*common:color/midnight_primary</color>
+		<color name="default_read_bg">@android:color/transparent</color>
+		<color name="default_read_contact">@android:color/white</color>
+		<color name="default_read_subject">@android:color/white</color>
+		<color name="default_read_date">@android:color/white</color>
+		<color name="default_read_count">@android:color/white</color>
+		<color name="default_unread_bg">@*common:color/tr</color>
+		<color name="default_unread_contact">@android:color/white</color>
+		<color name="default_unread_subject">@android:color/white</color>
+		<color name="default_unread_date">@android:color/white</color>
+		<color name="default_unread_count">@android:color/white</color>
+	
+    <!--Messages list view default colors-->
+		<color name="default_message_background">@*common:color/midnight_primary</color>
+		<color name="default_recv_text_bg">@*common:color/theme_color</color>
+		<color name="default_recv_contact_color">@*common:color/theme_color</color>
+		<color name="default_recv_textcolor">@android:color/white</color>
+		<color name="default_recv_datecolor">@*common:color/theme_color</color>
+		<color name="default_sent_text_bg">@*common:color/theme_color</color>
+		<color name="default_sent_contact_color">@*common:color/theme_color</color>
+		<color name="default_sent_textcolor">@android:color/white</color>
+		<color name="default_sent_datecolor">@*common:color/theme_color</color>
+</resources>

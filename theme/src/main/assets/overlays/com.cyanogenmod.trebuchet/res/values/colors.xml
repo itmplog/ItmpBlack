@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="settings_bg_color">@*common:color/midnight_primary</color>
+    <color name="settings_header_text">@*common:color/midnight_theme</color>
+    <color name="widget_text_panel">@*common:color/tr</color>
+    <color name="info_target_hover_tint">@*common:color/yellow_tr</color>
+    <color name="wallpaper_picker_translucent_gray">@*common:color/tr</color>
+    <color name="app_scrubber_highlight_color">@android:color/white</color>
+    <color name="app_scrubber_gray_color">@*common:color/midnight_theme</color>
+    <color name="scrubber_background">@*common:color/tr</color>
+    <color name="settings_bg_header_color">@*common:color/midnight_theme</color>
+    <color name="settings_bg_selected_color">@*common:color/yellow_tr</color>
+    <color name="settings_transition_selected_color">@*common:color/yellow_tr</color>
+
+    <color name="dynamic_grid_preview_background">@*common:color/tr</color>
+    <color name="dynamic_grid_preview_foreground">@*common:color/tr</color>
+
+    <!-- Widgets view -->
+    <color name="widgets_view_section_text_color">#FFFFFF</color>
+    <color name="widgets_view_item_text_color">#FFFFFF</color>
+    <color name="widgets_cell_color">@*common:color/midnight_primary</color>
+
+	<color name="quantum_panel_bg_color">@*common:color/tr</color>
+    <color name="quantum_panel_bg_color_dark">@*common:color/tr</color>
+    <color name="quantum_panel_text_color_dark">#FFF</color>
+    <color name="quantum_panel_text_color">#FFF</color>
+
+    <color name="workspace_edge_effect_color">@*common:color/midnight_theme</color>
+    <color name="folder_edge_effect_color">@*common:color/midnight_theme</color>
+    <color name="focused_background">@*common:color/yellow_tr</color>
+    <color name="workspace_icon_text_color">#FFF</color>
+
+    <color name="delete_target_hover_tint">@*common:color/midnight_theme</color>
+    <color name="uninstall_target_hover_tint">@*common:color/midnight_theme</color>
+    <color name="cling_scrim_background">@*common:color/tr</color>
+    <color name="outline_color">@*common:color/midnight_theme</color>
+    <!-- Containers -->
+    <color name="container_fastscroll_thumb_inactive_color">@*common:color/yellow_tr</color>
+    <color name="container_fastscroll_thumb_active_color">@*common:color/midnight_theme</color>
+
+    <!-- All Apps -->
+    <color name="all_apps_grid_section_text_color">#FFF</color>
+    <color name="all_apps_grid_section_text_color_dark">#FFF</color>
+    <color name="all_apps_search_market_button_focused_bg_color">#DDDDDD</color>
+
+
+	</resources>

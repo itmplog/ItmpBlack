@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Google Search's Colors-->
+
+<resources>
+    <color name="ime_level_enabled_background">#66ffffff</color>
+    <color name="suggestion_background_pressed">#ffeeeeee</color>
+    <color name="ime_text">#FF232F33</color>
+    <color name="ime_retry_text">#ff717171</color>
+    <color name="ime_spinner_text">#FF232F33</color>
+    <color name="ime_mic_levels">@*common:color/theme_color</color>
+    <color name="ime_hint_text">#ff232f33</color>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Keep's Colors-->
+
+<resources>
+    <color name="accent_color">@*common:color/yellow</color>
+	<color name="action_bar_text_color">@android:color/white</color>
+
+    <color name="action_bar_background_color">@*common:color/ab</color>
+    <color name="active_action_bar_background_color">@*common:color/ab</color>
+    <color name="browse_secondary_status_bar_color">@*common:color/ab</color>
+
+    <color name="sliding_drawer_background_color">@*common:color/tr</color>
+    <color name="drawer_selected_color">@*common:color/midnight_theme</color>
+    <color name="drawer_divider_color">@*common:color/tr</color>
+	<color name="drawer_header_color">@*common:color/yellow</color>
+    <color name="sliding_drawer_text_color">@android:color/white</color>
+	
+    <color name="default_background_color">@*common:color/midnight_primary</color>
+	<color name="widget_message_text_color">@*common:color/midnight_primary</color>
+	<color name="image_placeholder_background">@*common:color/midnight_primary</color>
+	
+    <color name="ink_menu_bg">@*common:color/midnight_primary</color>
+	<color name="ink_sheet_bg">@*common:color/midnight_primary</color>
+	<color name="note_default_color">@*common:color/midnight_primary</color>
+	<color name="sliding_drawer_landing_page_background_color">@android:color/black</color>
+	
+    <color name="material_deep_teal_500">@*common:color/midnight_theme</color>	
+    <color name="filter_background_color">@*common:color/ab</color>
+    <color name="filter_selected_background_color">@*common:color/midnight_theme</color>
+		
+	<color name="primary_color">@*common:color/ab</color>
+    <color name="primary_material_dark">#ff666666</color>
+    <color name="primary_material_light">@*common:color/midnight_primary</color>
+    <color name="primary_dark_material_dark">#ff666666</color>
+    <color name="primary_dark_material_light">@*common:color/ab</color>
+    <color name="primary_color_dark">@*common:color/ab</color>
+
+	<color name="primary_text_color">#ff666666</color>
+    <color name="default_account_details_color">@android:color/white</color>
+    <color name="manage_accounts_text_color">@android:color/white</color>
+    <color name="add_accounts_text_color">@android:color/white</color>
+    <color name="account_text_color">@android:color/white</color>
+
+    <color name="actionMode_status_bar_color">@*common:color/sb</color>
+    <color name="action_mode_background_color">@*common:color/ab</color>	
+	
+    <color name="trash_action_bar_background_color">@*common:color/ab</color>
+    <color name="trash_status_bar_color">@*common:color/sb</color>
+    <color name="hint_text_color">#ff666666</color>
+    <color name="share_activity_email_edit_hint_text">#ff666666</color>
+
+    <color name="widget_background_color">@*common:color/tr</color>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Google Plus' Styles-->
+
+<resources>
+    <style name="Base.ThemeOverlay.AppCompat.Light" parent="@*common:style/Platform.ThemeOverlay.AppCompat" />
+    <style name="Base.Theme.AppCompat" parent="@style/Platform.AppCompat.Light" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Dialog" parent="@style/Platform.AppCompat.Light.Dialog" />
+    <style name="Base.Theme.AppCompat.Light.Dialog" parent="@style/Base.Theme.AppCompat.Dialog" />
+    <style name="Base.Theme.AppCompat.Light.DarkActionBar" parent="@style/Base.Theme.AppCompat.Light" />
+    <style name="Theme.AppCompat" parent="@style/Base.Theme.AppCompat" />
+    <style name="Theme.AppCompat.Light" parent="@style/Base.Theme.AppCompat.Light" />
+    <style name="Theme.AppCompat.Dialog" parent="@style/Base.Theme.AppCompat.Dialog" />
+	<style name="Theme.AppCompat.Light.Dialog" parent="@style/Base.Theme.AppCompat.Light.Dialog" />
+	<style name="Theme.AppCompat.Light.DarkActionBar" parent="@*common:style/Theme.AppCompat.Wallpaper">
+		<item name="android:backgroundTint">@color/main_background_color</item>
+		<item name="android:statusBarColor">@color/cdt0</item>
+	</style>
+    <style name="Theme.Poll.ActionBar.Text" parent="@style/Theme.Arkham.ActionBar.Text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="Theme.Arkham.ActionBar.Text" parent="@*common:style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

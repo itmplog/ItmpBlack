@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Browser's Colors-->
+
+<resources>
+    <color name="cardview_light_background">@*common:color/tr</color>
+    <color name="white">@*common:color/midnight_primary</color>
+</resources>

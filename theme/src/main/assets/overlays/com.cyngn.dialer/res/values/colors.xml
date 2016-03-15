@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Dialer's Colors-->
+
+<resources>	
+    <color name="accent">@*common:color/theme_color</color>
+	
+    <color name="dialtacts_theme_color">@*common:color/theme_color</color>
+    <color name="people_app_theme_color">@*common:color/theme_color</color>
+    <color name="dialpad_separator_line_color">#00000000</color>
+    <color name="lockscreen_answer_tint">@*common:color/midnight_theme</color>
+    <color name="lockscreen_decline_tint">@*common:color/midnight_theme</color>
+    <color name="lockscreen_messages_tint">@*common:color/midnight_theme</color>
+
+    <!-- Color for answered call icons. -->
+    <color name="answered_incoming_call">#0091EA</color>
+
+    <!-- Color for outgoing call icons. -->
+    <color name="answered_outgoing_call">@*common:color/theme_color</color>	
+    <color name="dialer_blue_highlight_color">#0091EA</color>
+
+
+    <color name="call_log_action_divider">@android:color/transparent</color>
+    <!-- Undo dialogue color -->
+
+    <color name="empty_list_text_color">@android:color/white</color>
+
+    <color name="remove_text_color">@android:color/white</color>	
+   <!-- Color for blacklist call icons. -->
+    <color name="blacklisted_call">@*common:color/theme_color</color>
+
+	<color name="actionbar_text_color">@android:color/white</color>
+    <color name="actionbar_icon_color">@android:color/white</color>
+	
+    <color name="actionbar_background_color">@*common:color/ab</color>
+    <color name="actionbar_background_color_dark">@*common:color/sb</color>
+	
+    <color name="dialer_theme_color">@*common:color/yellow</color>
+    <color name="dialer_theme_color_dark">@*common:color/yellow</color>
+	
+    <color name="background_dialpad">@*common:color/midnight_primary</color>
+    <color name="background_dialer_white">@*common:color/midnight_primary</color>
+    <color name="background_dialer_light">@*common:color/midnight_primary</color>
+    <color name="background_dialer_results">@*common:color/midnight_primary</color>
+    <color name="background_dialer_list_items">@*common:color/midnight_primary</color>
+    <color name="background_dialer_details_list_items">@*common:color/midnight_primary</color>
+    <color name="background_primary">@*common:color/midnight_primary</color>
+    <color name="button_background_color">@*common:color/midnight_theme</color>
+    <color name="contact_all_list_background_color">@*common:color/midnight_primary</color>
+    <color name="call_log_expanded_background_color">@*common:color/midnight_primary</color>
+    <color name="holo_list_background_color">@*common:color/midnight_primary</color>
+    <color name="setting_background_color">@*common:color/midnight_primary</color>
+
+    <color name="dialpad_primary_text_color">@*common:color/midnight_theme</color>
+    <color name="dialpad_secondary_text_color">@android:color/white</color>
+    <color name="dialpad_digits_text_color">@android:color/white</color>
+    <color name="dialpad_icon_tint">@*common:color/yellow</color>
+    <color name="dialpad_voicemail_tint">@android:color/white</color>
+
+	<color name="searchbox_text_color">@android:color/white</color>
+    <color name="searchbox_background_color">@*common:color/midnight_primary</color>
+    <color name="searchbox_hint_text_color">@android:color/white</color>
+    <color name="searchbox_icon_tint">@android:color/white</color>
+    <color name="search_shortcut_background_color">@*common:color/ab</color>
+    <color name="search_shortcut_icon_color">@android:color/white</color>
+
+	<color name="incall_background_color">@*common:color/midnight_primary</color>
+    <color name="incall_accent_color">@android:color/white</color>
+    <color name="incall_banner_secondary_background_color">@*common:color/midnight_primary</color>
+    <color name="incall_banner_secondary_text_color">#b3ffffff</color>
+    <color name="incall_dialpad_background">@*common:color/midnight_primary</color>
+
+	<color name="main_header_separator_color">@*common:color/midnight_theme</color>
+    <color name="secondary_header_separator_color">@*common:color/midnight_theme</color>
+    <color name="favorite_contacts_separator_color">@*common:color/midnight_theme</color>
+
+	<color name="button_default_color">@android:color/white</color>	
+    <color name="button_selected_color">@*common:color/midnight_theme</color>
+    <color name="dialer_dialpad_touch_tint">@*common:color/midnight_theme</color>
+    <color name="item_selected">@*common:color/midnight_theme</color>	
+    <color name="incall_dialpad_touch_tint">@*common:color/midnight_theme</color>
+    <color name="recent_call_log_item_phone_icon_tint">@android:color/white</color>
+    <color name="quickcontact_default_photo_tint_color_dark">@*common:color/theme_color</color>
+
+    <color name="call_log_extras_text_color">@android:color/white</color>
+    <color name="contact_list_name_text_color">@android:color/white</color>
+    <color name="call_log_action_text">@android:color/white</color>
+    <color name="dialtacts_secondary_text_color">#ffaaaaaa</color>
+    <color name="dialer_green_highlight_color">@*common:color/midnight_theme</color>
+    <color name="dialtacts_primary_text_color">@android:color/white</color>
+    <color name="frequently_contacted_title_color">@android:color/white</color>
+    <color name="nofavorite_text_color">@android:color/white</color>
+	<color name="primary_text_color">@android:color/white</color>
+    <color name="undo_dialogue_text_color">@android:color/white</color>
+
+	<color name="tab_selected_underline_color">@*common:color/midnight_theme</color>
+
+	<!--Letter tile colors-->
+		<color name="letter_tile_red_color">#ffdb4437</color>
+		<color name="letter_tile_pink_color">#ffe91e63</color>
+		<color name="letter_tile_purple_color">#ff9c27b0</color>
+		<color name="letter_tile_deep_purple_color">#ff673ab7</color>
+		<color name="letter_tile_indigo_color">#ff3f51b5</color>
+		<color name="letter_tile_blue_color">#ff4285f4</color>
+		<color name="letter_tile_light_blue_color">#ff039be5</color>
+		<color name="letter_tile_cyan_color">#ff0097a7</color>
+		<color name="letter_tile_teal_color">#ff009688</color>
+		<color name="letter_tile_green_color">#ff0f9d58</color>
+		<color name="letter_tile_light_green_color">#ff689f38</color>
+		<color name="letter_tile_orange_color">#ffef6c00</color>
+		<color name="letter_tile_deep_orange_color">#ffff5722</color>
+		<color name="letter_tile_grey_color">#ff757575</color>
+		<color name="letter_tile_red_color_dark">@color/letter_tile_red_color</color>
+		<color name="letter_tile_pink_color_dark">@color/letter_tile_pink_color</color>
+		<color name="letter_tile_purple_color_dark">@color/letter_tile_purple_color</color>
+		<color name="letter_tile_deep_purple_color_dark">@color/letter_tile_deep_purple_color</color>
+		<color name="letter_tile_indigo_color_dark">@color/letter_tile_indigo_color</color>
+		<color name="letter_tile_blue_color_dark">@color/letter_tile_blue_color</color>
+		<color name="letter_tile_light_blue_color_dark">@color/letter_tile_light_blue_color</color>
+		<color name="letter_tile_cyan_color_dark">@color/letter_tile_cyan_color</color>
+		<color name="letter_tile_teal_color_dark">@color/letter_tile_teal_color</color>
+		<color name="letter_tile_green_color_dark">@color/letter_tile_green_color</color>
+		<color name="letter_tile_light_green_color_dark">@color/letter_tile_light_green_color</color>
+		<color name="letter_tile_orange_color_dark">@color/letter_tile_orange_color</color>
+		<color name="letter_tile_deep_orange_color_dark">@color/letter_tile_deep_orange_color</color>
+		<color name="letter_tile_grey_color_dark">@color/letter_tile_grey_color</color>
+</resources>

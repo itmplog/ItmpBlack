@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Settings' Drawables-->
+
+<resources>
+	<item type="drawable" name="fp_enrollment_header_landscape">@*common:color/theme_color</item>
+</resources>

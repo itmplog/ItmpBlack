@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Google Search's Styles-->
+
+<resources>
+    <style name="AccountsSwitcher.AccountDisplayNameStyle" parent="@style/AccountsSwitcher">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+	<style name="Theme.Shim.Light" parent="@android:style/Theme.Material" >
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:colorPrimary">#3F51B5</item>
+		<item name="android:statusBarColor">#3F51B5</item>
+        <item name="android:colorPrimaryDark">#3F51B5</item>
+        <item name="android:colorAccent">@*common:color/midnight_theme</item>
+		<item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+    </style>
+	<style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar">
+		<item name="android:background">@*common:drawable/settings_header</item>
+    </style>
+    <style name="Theme.Shim.Light.NoActionBar" parent="@android:style/Theme.Material.NoActionBar" >
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="Theme.Shim.Light.Dialog" parent="@android:style/Theme.Material.Dialog" >
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="Widget.Shim.Light.ActionBar" parent="@android:style/Widget.Material.ActionBar" >
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@*common:drawable/settings_header</item>
+    </style>
+</resources>

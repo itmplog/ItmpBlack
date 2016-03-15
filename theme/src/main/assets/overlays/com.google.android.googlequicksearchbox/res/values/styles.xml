@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Google Search's Styles-->
+
+<resources>    
+	<style name="AccountsSwitcher" />
+    <style name="AccountsSwitcher.AccountDisplayNameStyle" parent="@style/AccountsSwitcher">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="qp_grey_icon" parent="@style/qp_icon_no_tint">
+        <item name="android:tint">@android:color/white</item>
+        <item name="android:alpha">1.0</item>
+    </style>
+	<style name="qp_icon" parent="@style/qp_icon_no_tint">
+        <item name="android:tint">@android:color/white</item>
+        <item name="android:alpha">1.0</item>
+    </style>
+	<style name="qp_icon_no_tint">
+        <item name="android:layout_width">@dimen/qp_action_icon_size</item>
+        <item name="android:layout_height">@dimen/qp_action_icon_size</item>
+    </style>
+    <style name="RecurrenceTextAppearance" parent="@android:style/TextAppearance" >
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="RecurrenceTextAppearance.RecurrencePickerStyle" parent="@style/RecurrenceTextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15.0sp</item>
+    </style>
+</resources>

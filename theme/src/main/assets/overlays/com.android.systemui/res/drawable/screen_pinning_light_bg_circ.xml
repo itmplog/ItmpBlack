@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+    <solid android:color="@*common:color/tr" />
+    <size
+        android:height="@dimen/screen_pinning_nav_highlight_outer_size"
+        android:width="@dimen/screen_pinning_nav_highlight_outer_size" />
+</shape>

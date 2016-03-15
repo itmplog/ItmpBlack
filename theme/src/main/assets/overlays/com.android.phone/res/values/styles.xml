@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing TeleService.apk's Colors-->
+<!--LAST REVISED ON: 4:24PM EST 20/02/2015-->
+
+<resources>
+    <style name="Theme.Settings" parent="@android:style/Theme.Material" >
+        <item name="android:colorPrimary">@*common:color/midnight_primary</item>
+        <item name="android:colorPrimaryDark">@*common:color/sb</item>
+        <item name="android:colorAccent">@*common:color/midnight_theme</item>
+		<item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+    </style>
+    <style name="SettingsLight" parent="@android:style/Theme.Material" >
+        <item name="android:colorPrimary">@*common:color/midnight_primary</item>
+        <item name="android:colorPrimaryDark">@*common:color/sb</item>
+        <item name="android:colorAccent">@*common:color/midnight_theme</item>
+		<item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+    </style>
+    <style name="DialerAlertDialogTheme" parent="@android:style/Theme.Material.Dialog" />
+    <style name="NetworkOperatorsSettingsTheme" parent="@android:style/Theme.Material" >
+        <item name="android:colorPrimary">@*common:color/midnight_primary</item>
+        <item name="android:colorPrimaryDark">@*common:color/sb</item>
+        <item name="android:colorAccent">@*common:color/midnight_theme</item>
+		<item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+    </style>
+    <style name="Theme.InCallScreen" parent="@android:style/Theme.Material" />
+    <style name="EmergencyDialerTheme" parent="@android:style/Theme.Material" />
+    <style name="SimImportTheme" parent="@android:style/Theme.Material" />
+    <style name="Theme.Material.Settings" parent="@android:style/Theme.Material.Settings">
+        <item name="android:colorPrimary">@*common:color/midnight_primary</item>
+        <item name="android:colorPrimaryDark">@*common:color/sb</item>
+        <item name="android:colorAccent">@*common:color/midnight_theme</item>
+		<item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+    </style>
+	<style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar">
+		<item name="android:background">@*common:drawable/settings_header</item>
+    </style>
+
+    <style name="TelephonyActionBarStyle" parent="android:Widget.Material.ActionBar">
+		<item name="android:background">@*common:drawable/settings_header</item>
+    </style>
+</resources>

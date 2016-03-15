@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing MediaProvider's Styles-->
+
+<resources>
+    <style name="PickerDialogTheme" parent="@android:style/Theme.Material.Dialog.Alert">
+		<item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimary_dark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+	</style>
+</resources>

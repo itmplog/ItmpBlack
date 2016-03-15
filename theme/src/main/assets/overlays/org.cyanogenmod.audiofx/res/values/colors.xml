@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing AudioFX's Colors-->
+
+<resources>
+    <color name="action_bar_background">@*common:color/tr</color>
+    <color name="audiofx_background_color">@*common:color/tr</color>
+    <color name="eq_preset_label_text_color">@*common:color/midnight_theme</color>
+    <color name="reverb_label_text_color">@*common:color/midnight_theme</color>
+	
+	<color name="highlight">@android:color/white</color>
+	
+    <color name="primary">@*common:color/ab</color>
+    <color name="primary_dark">@*common:color/sb</color>
+    <color name="accent">@*common:color/midnight_theme</color>
+	
+    <color name="white">@android:color/white</color>
+    <color name="black">@*common:color/tr</color>
+    <color name="grid_lines">#4affffff</color>
+
+    <color name="cb">#88777777</color>
+    <color name="freq_hl">#20777777</color>
+    <color name="freq_hl2">#40777777</color>	
+	
+    <color name="eq_holo_bright">@*common:color/blue</color>
+    <color name="eq_holo_blue">@*common:color/yellow</color>
+    <color name="eq_holo_dark">@*common:color/midnight_theme</color>
+	
+    <color name="cb_shader">#ffc3c3c3</color>
+    <color name="cb_shader_alpha">#44c3c3c3</color>
+	
+	<color name="window_background">@*common:color/tr</color>
+</resources>

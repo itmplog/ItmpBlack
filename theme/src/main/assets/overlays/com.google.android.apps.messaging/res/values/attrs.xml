@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Messenger's Attributes-->
+
+<resources>
+    <attr name="colorAccent" format="color" />
+</resources>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Hangouts' Colors-->
+
+<resources>	
+
+	<!--Main Colors for Hangouts-->
+		<color name="primary">@*common:color/red</color>
+		<color name="primary_dark">@*common:color/red</color>
+		<color name="settings_action_bar_background_color">@*common:color/red</color>
+		<color name="default_status_bar_color">@*common:color/red</color>
+
+		<!--Conversation Bubble Background Color-->
+			<color name="incoming_conversation_bubble_background">#333333</color>
+			<color name="incoming_conversation_bubble_background_otr">#333333</color>
+			<color name="outgoing_conversation_bubble_background">@*common:color/red_tr</color>
+			<color name="outgoing_conversation_bubble_background_otr">@*common:color/red_tr</color>		
+
+			<color name="quantum_googgreen400">@*common:color/midnight_theme</color>
+		<color name="quantum_googgreen500">@*common:color/midnight_theme</color>
+		<color name="quantum_googgreen700">@*common:color/midnight_theme</color>
+	    <color name="hardcore">@*common:color/tr</color>
+
+		<color name="conversation_name">@android:color/white</color>
+		<color name="conversation_list_selection_ripple">@*common:color/midnight_theme</color>
+		<color name="conversation_list_selected_accent">@*common:color/midnight_theme</color>
+		<color name="compose_message_view_bg">@color/hardcore</color> <!--Message text background-->
+		<color name="conversation_bg_color">@*common:color/midnight_primary</color>
+	<!--Hangouts 6.0-->
+		<color name="alert_dialog_window_background">@*common:color/tr</color>
+		
+	<!--Hangouts 4.0-->
+		<color name="quantum_white_100">#aa000000</color> <!--Bottom attach bar and drawer icon color-->
+		<color name="quantum_bluegrey900">@android:color/white</color> <!--Text color of conversation list-->	
+
+	<color name="quantum_black_100">#D8D8D8</color>
+    <color name="quantum_black_text">#D8D8D8</color>
+    <color name="quantum_black_secondary_text">#89ffffff</color>
+    <color name="quantum_black_hint_text">#89ffffff</color>
+    <color name="quantum_black_divider">#1f000000</color>
+    <color name="quantum_white_text">#89ffffff</color>
+    <color name="quantum_white_secondary_text">#D8D8D8</color>
+    <color name="quantum_white_hint_text">#89ffffff</color>
+    <color name="quantum_white_divider">@*common:color/tr</color>
+    <color name="quantum_greyblack1000">#D8D8D8</color>
+    <color name="quantum_greywhite1000">#D8D8D8</color>
+    <color name="quantum_bluegrey950">#D8D8D8</color>
+
+    <color name="bg_item_transparent">@*common:color/midnight_primary</color>
+    <color name="bg_item_invite_normal">@*common:color/midnight_primary</color>
+	
+	<color name="pager_bg_color">@*common:color/midnight_primary</color>		
+	<color name="material_blue_grey_900">@android:color/white</color>
+		
+		<color name="text_normal">#D8D8D8</color>
+		<color name="text_gray">#D8D8D8</color>
+
+	<color name="foreground_material_dark">@android:color/white</color>
+    <color name="foreground_material_light">@android:color/white</color>
+    <color name="background_material_dark">@*common:color/midnight_primary</color>
+    <color name="background_material_light">@*common:color/midnight_primary</color>
+	
+	<color name="primary_material_dark">@*common:color/ab</color>
+    <color name="primary_material_light">@*common:color/ab</color>
+    <color name="primary_dark_material_dark">@*common:color/sb</color>
+    <color name="primary_dark_material_light">@*common:color/sb</color>
+	<color name="text_white_26_percent">#D8D8D8</color>
+    <color name="text_white_40_percent">#D8D8D8</color>
+    <color name="text_gray_accessible_on_grey200">#D8D8D8</color>
+    <color name="text_black_26_percent">#D8D8D8</color>
+    <color name="text_black_54_percent">#D8D8D8</color>
+    <color name="text_black_87_percent">#D8D8D8</color>
+    <color name="text_blue">@*common:color/midnight_theme</color>
+    <color name="text_red">@*common:color/midnight_theme</color>
+    <color name="text_hint">#89ffffff</color>
+    <color name="blue_4">@*common:color/midnight_theme</color>
+	<color name="text_white">@android:color/white</color>
+	<color name="solid_white">@android:color/white</color>
+    <color name="tile_background">@*common:color/midnight_primary</color>
+    <color name="tile_background_selected">@*common:color/midnight_primary</color>
+	<color name="card_background_selected">@*common:color/midnight_theme</color>
+    <color name="quantum_white_80">#aa000000</color>
+    <color name="application_background">@*common:color/midnight_primary</color>
+	<color name="default_bg">@*common:color/midnight_primary</color>
+	<color name="black">@android:color/white</color>
+	<color name="solid_black">@android:color/white</color>
+    <color name="divider_settings">@android:color/transparent</color>
+	<color name="background_floating_material_dark">@*common:color/tr</color>
+    <color name="background_floating_material_light">@*common:color/tr</color>
+    <color name="highlighted_text_material_dark">#D8D8D8</color>
+    <color name="highlighted_text_material_light">#D8D8D8</color>
+    <color name="invite_text_light">#D8D8D8</color>
+    <color name="invite_text_dark">#D8D8D8</color>
+    <color name="invite_text_red">@*common:color/midnight_theme</color>
+    <color name="translucent_black">@*common:color/tr</color>
+    <color name="translucent_white">@*common:color/tr</color>
+    <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
+    <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
+    <color name="bright_foreground_material_dark">@android:color/white</color>
+    <color name="bright_foreground_material_light">@android:color/white</color>
+    <color name="bright_foreground_disabled_material_dark">@android:color/white</color>
+    <color name="bright_foreground_disabled_material_light">@android:color/white</color>
+    <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
+    <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>	
+
+    <color name="invite_button_text">@android:color/white</color>
+    <color name="accept_button_text_color">@*common:color/midnight_theme</color>
+    <color name="ignore_button_text_color">@*common:color/midnight_theme</color>
+    <color name="last_message">@*common:color/midnight_theme</color>
+    <color name="realtimechat_empty_background">@*common:color/midnight_primary</color>
+    <color name="cardview_light_background">@*common:color/midnight_primary</color>
+    <color name="cardview_dark_background">@*common:color/midnight_primary</color>
+    <color name="cardview_shadow_start_color">@*common:color/midnight_primary</color>
+    <color name="cardview_shadow_end_color">@*common:color/midnight_primary</color>
+
+    <color name="quick_send_active_background_color">@*common:color/midnight_theme</color>
+    <color name="quick_send_inactive_background_color">#D8D8D8</color>
+
+    <color name="common_signin_btn_dark_text_default">@*common:color/midnight_primary</color>
+    <color name="common_signin_btn_dark_text_pressed">@*common:color/midnight_primary</color>
+    <color name="common_signin_btn_dark_text_disabled">@*common:color/ab</color>
+    <color name="common_signin_btn_dark_text_focused">@*common:color/midnight_primary</color>
+    <color name="common_signin_btn_light_text_default">@*common:color/midnight_primary</color>
+    <color name="common_signin_btn_light_text_pressed">@*common:color/midnight_primary</color>
+    <color name="common_signin_btn_light_text_disabled">@*common:color/midnight_primary</color>
+    <color name="common_signin_btn_light_text_focused">@*common:color/midnight_primary</color>
+    <color name="common_signin_btn_default_background">@*common:color/midnight_theme</color>	
+	
+	<!--Status Change-->
+			<color name="status_message_ok_length">@android:color/black</color>
+			<color name="status_message_statusbar_color">@*common:color/midnight_primary</color>
+			<color name="status_message_background">@*common:color/midnight_primary</color>
+			<color name="status_message_title_color">@*common:color/midnight_theme</color>
+			<color name="status_message_subtitle_color">@*common:color/midnight_theme</color>
+
+		<color name="quantum_googgreenA200">@*common:color/midnight_theme</color>
+		<color name="quantum_vanillagreenA200">@*common:color/midnight_theme</color>
+
+		<color name="indicator_color">@*common:color/midnight_primary</color>
+		<color name="quantum_bluegrey500">#ff9d9d9d</color> <!--Icon Colors, Message bg hint-->
+		<color name="quantum_bluegrey600">#ffb7b7b7</color> <!--Mainly controls message text, now controls link text too-->
+		<color name="quantum_bluegrey700">#ffb7b7b7</color>
+
+		<color name="icon_color">@*common:color/midnight_theme</color>
+		<color name="people_list_section_header">@*common:color/red</color>
+
+		<color name="text_color_primary_settings">@android:color/white</color>
+		<color name="text_color_secondary_settings">#89ffffff</color>
+        <color name="people_name">@android:color/white</color>
+        <color name="people_detail">@android:color/white</color>
+
+		<color name="navigation_drawer_item_text">@android:color/black</color>
+		<color name="navigation_drawer_item_detail_text">@android:color/black</color>
+		<color name="navigation_drawer_disabled_item_text">#66777777</color>		
+		
+		<!--Floating Action Button in Main Screen-->
+			<color name="quick_button_text_color">@android:color/black</color>
+			
+		<!--New conversation activity colors-->
+			<color name="action_sheet_secondary_color">@*common:color/midnight_theme</color> <!--Frequent contacts list name-->
+			<color name="edit_participants_toolbar_color">@*common:color/sb</color>
+			<color name="edit_participants_statusbar_color">@*common:color/midnight_primary</color>
+			<color name="hangouts_search_query_highlight_color">@*common:color/midnight_theme</color> <!--This controls search color including dialer number after typed-->
+            <color name="search_query_highlight_color">@*common:color/midnight_theme</color>
+			<color name="last_seen">#9affffff</color>
+			<color name="participant_view_text_hint_color">#b3ffffff</color>
+		    <color name="sufficient_contrast_hint_text">@*common:color/midnight_theme</color>
+            <color name="snackbar_background">@*common:color/midnight_primary</color>
+            <color name="design_snackbar_background_color">@*common:color/midnight_primary</color>
+            <color name="hangout_snackbar_background">@*common:color/midnight_primary</color>
+
+		<!--Conversation Bubble/Message Text-->
+			<color name="realtimechat_message_text_incoming">@android:color/white</color>
+			<color name="realtimechat_message_text_outgoing">@android:color/white</color>
+			<color name="realtimechat_message_text_incoming_otr">@android:color/white</color>
+			<color name="realtimechat_message_text_outgoing_otr">@android:color/white</color>
+			<color name="realtimechat_message_link_incoming">@android:color/white</color>
+			<color name="realtimechat_message_link_outgoing">@android:color/white</color>
+			<color name="realtimechat_message_link_incoming_otr">@android:color/white</color>
+			<color name="realtimechat_message_link_outgoing_otr">@android:color/white</color>
+		
+		<!--Conversation Screen Floating Action Button-->
+			<color name="floating_action_button_pressed_color">@*common:color/red</color>
+			<color name="floating_action_button_unpressed_color">@*common:color/red_tr</color>
+
+		<!--Missed Background Bar-->
+			<color name="quantum_bluegrey100">@*common:color/midnight_primary</color>
+		
+		<!--Floating Action Button Send Button-->
+			<color name="fab_hangouts_primary_color">@*common:color/midnight_theme</color>
+			<color name="fab_hangouts_inactive_color">@android:color/transparent</color>
+			<color name="fab_hangouts_image_tint_color">@android:color/transparent</color>
+		
+		<!--Accents-->
+			<color name="quantum_vanillagreenA400">@*common:color/midnight_theme</color>
+			<color name="quantum_googgreenA400">@*common:color/midnight_theme</color>
+			<color name="quantum_bluegrey800">@*common:color/midnight_theme</color>
+			<color name="material_blue_grey_800">@*common:color/midnight_theme</color>
+			
+
+	<!--Google Colors-->
+		<color name="quantum_grey500">@*common:color/ab</color>
+		<color name="quantum_pink50">@*common:color/red</color>
+		<color name="quantum_pink100">@*common:color/red</color>
+		<color name="quantum_pink200">@*common:color/red</color>
+		<color name="quantum_pink300">@*common:color/red</color>
+		<color name="quantum_pink400">@*common:color/red</color>
+		<color name="quantum_pink500">@*common:color/red</color>
+		<color name="quantum_pink600">@*common:color/red</color>
+		<color name="quantum_pink700">@*common:color/red</color>
+		<color name="quantum_pink800">@*common:color/red</color>
+		<color name="quantum_pink900">@*common:color/red</color>
+		<color name="quantum_pinkA100">@*common:color/red</color>
+		<color name="quantum_pinkA200">@*common:color/red</color>
+		<color name="quantum_pinkA400">@*common:color/red</color>
+		<color name="quantum_pinkA700">@*common:color/red</color>
+		<color name="quantum_purple50">@*common:color/red</color>
+		<color name="quantum_purple100">@*common:color/red</color>
+		<color name="quantum_purple200">@*common:color/red</color>
+		<color name="quantum_purple300">@*common:color/red</color>
+		<color name="quantum_purple400">@*common:color/red</color>
+		<color name="quantum_purple500">@*common:color/red</color>
+		<color name="quantum_purple600">@*common:color/red</color>
+		<color name="quantum_purple700">@*common:color/red</color>
+		<color name="quantum_purple800">@*common:color/red</color>
+		<color name="quantum_purple900">@*common:color/red</color>
+		<color name="quantum_purpleA100">@*common:color/red</color>
+		<color name="quantum_purpleA200">@*common:color/red</color>
+		<color name="quantum_purpleA400">@*common:color/red</color>
+		<color name="quantum_purpleA700">@*common:color/red</color>
+	
+	<!--Hangouts Dialpad-->
+		<color name="background_dialpad">@*common:color/midnight_primary</color>
+		<color name="background_dialpad_pressed">@*common:color/midnight_theme</color>
+		<color name="dialpad_primary_text_color">@android:color/white</color>
+		<color name="dialpad_secondary_text_color">@*common:color/midnight_theme</color>
+		<color name="dialpad_digits_text_color">@android:color/white</color>
+		<color name="dialpad_separator_line_color">@android:color/transparent</color>
+		<color name="dialpad_calling_rates_text_color">@android:color/white</color>	
+    <color name="voice_tos_button_background">@*common:color/midnight_primary</color>
+    <color name="make_phone_call_hint_color">@android:color/black</color>
+    <color name="background_edittext">@*common:color/midnight_primary</color>
+    <color name="background_edittext_focused">@*common:color/midnight_primary</color>
+    <color name="background_edittext_pressed">@*common:color/midnight_primary</color>
+    <color name="background_dialpad_focused">#ffececec</color>
+    <color name="dialpad_calling_rates_text_highlight_color">@*common:color/midnight_theme</color>
+    <color name="contact_text_color">@android:color/white</color>
+    <color name="callerid_indigo">@*common:color/ab</color>
+    <color name="callerid_progress_dress_color">@*common:color/midnight_theme</color>
+	<!--Touch Feedback-->
+		<color name="bg_item_activated">@*common:color/midnight_theme</color>
+		<color name="bg_item_selected">@*common:color/midnight_theme</color>
+		<color name="bg_item_pressed">@*common:color/midnight_theme</color>	
+	
+	<!--Notification Colors-->
+		<color name="primary_text">@android:color/white</color>
+		<color name="secondary_text">#89ffffff</color>
+	
+	<!--People in this hangout inside People & Options-->
+		<color name="participant_name">@android:color/white</color>
+	
+	<!--Primary and Secondary Colors-->
+		<color name="primary_text_default_material_dark">#D8D8D8</color>
+		<color name="secondary_text_default_material_dark">#D8D8D8</color>
+		<color name="primary_text_disabled_material_dark">#D8D8D8</color>
+		<color name="secondary_text_disabled_material_dark">#D8D8D8</color>
+
+	<!--Resend, Contacts titles, Phone Number Text Colors-->
+		<color name="text_default_color_dark">#D8D8D8</color>
+		<color name="text_secondary_default_color_dark">#ff888888</color>
+		<color name="text_tertiary_default_color_dark">@android:color/white</color>
+		<color name="tab_background_color">@*common:color/midnight_theme</color>
+		<color name="tab_text_color">@android:color/white</color>
+
+	<!--Getting rid of Material Colors-->
+	    <color name="accent_light">@*common:color/midnight_theme</color>
+        <color name="accent_dark">@*common:color/midnight_theme</color>
+		<color name="accent">@*common:color/midnight_theme</color>
+		<color name="quantum_teal500">@*common:color/midnight_theme</color>
+		<color name="material_deep_teal_500">@*common:color/midnight_theme</color>
+	
+	<!--Text and Attachment background-->
+		<color name="realtimechat_message_text">@android:color/white</color>
+		<color name="realtimechat_message_timestamp">@android:color/white</color>
+		<color name="realtimechat_message_text_otr">@android:color/white</color>
+		<color name="realtimechat_message_timestamp_otr">@android:color/white</color>
+		<color name="realtimechat_message_textlink">@android:color/white</color>
+		<color name="realtimechat_message_byline_failed">#ffff0000</color>
+		<color name="realtimechat_system_information_foreground">@android:color/white</color>
+		<color name="realtimechat_system_error_foreground">#ffff0000</color>
+		<color name="time_since">@*common:color/midnight_theme</color>
+		<color name="unblock_button">@*common:color/midnight_theme</color>
+	
+	<!--Conversation background, bar backgrounds-->
+		<color name="audience_remove_x_background">@*common:color/midnight_theme</color>
+		<color name="bg_item_normal_invite">@*common:color/midnight_theme</color>
+		<color name="button_bar_background">@*common:color/midnight_primary</color>
+		<color name="ongoing_hangout_background">@*common:color/midnight_primary</color>
+		<color name="hangout_present_banner_background">@*common:color/midnight_primary</color>		
+		<color name="compose_message_view_text_color">#D8D8D8</color>
+		<color name="compose_message_view_text_color_otr">#D8D8D8</color>
+		<color name="compose_message_view_hint_text_color">#D8D8D8</color>
+		<color name="compose_message_view_hint_text_color_otr">#D8D8D8</color>
+		<color name="attachment_name_background_color">@*common:color/midnight_primary</color>
+		<color name="bg_item_touch_feedback">@*common:color/red_tr</color>
+</resources>

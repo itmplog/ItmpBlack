@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing PlayerPro's Colors-->
+
+<resources>
+    <color name="dark_material">@*common:color/tr</color>
+</resources>

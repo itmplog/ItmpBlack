@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2013 The OmniROM Project
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+	<color name="text_shadow">#000000</color>
+	<color name="bg_flat_color">@*common:color/tr</color>
+	<color name="bg_flat_color_dark">@*common:color/tr</color>
+	<color name="button_bg_flat_color">@*common:color/tr</color>
+	<color name="ripple_material_light">@*common:color/theme_color</color>
+	<color name="ripple_material_dark">@*common:color/theme_color</color>
+	<color name="fake_window_shade_color">#40424242</color>
+	<color name="rambar_left_color">@color/colorPrimary</color>
+	<color name="rambar_middle_color">@color/colorPrimary</color>
+	<color name="rambar_right_color">@*common:color/yellow_tr</color>
+	<color name="default_drag_handle_color">@color/colorPrimary</color>
+	<color name="material_blue_grey_900">@*common:color/theme_color</color>
+	<color name="material_grey_50">@*common:color/theme_color</color>
+	<color name="material_grey_100">@*common:color/theme_color</color>
+    <color name="material_grey_300">@*common:color/theme_color</color>
+    <color name="material_grey_600">@*common:color/theme_color</color>
+	<color name="material_grey_800">@*common:color/theme_color</color>
+	<color name="material_grey_850">@*common:color/theme_color</color>
+	<color name="colorAccent">@*common:color/theme_color</color>
+	<color name="colorPrimary">@*common:color/ab</color>
+	<color name="colorPrimaryDark">@*common:color/sb</color>
+</resources>

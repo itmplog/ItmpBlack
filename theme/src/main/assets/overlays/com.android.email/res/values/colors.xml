@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Email's Colors-->
+
+<resources>
+	<!--Notification Colors-->
+		<color name="primary_text">@android:color/white</color>
+		<color name="secondary_text">#BDBDBD</color>
+ 
+    <color name="account_setup_headline_color">@android:color/white</color>
+    <color name="account_setup_info_text_color">@android:color/white</color>
+    <color name="account_setup_label_text_color">@android:color/white</color>
+    <color name="account_setup_label_large_text_color">@android:color/white</color>
+    <color name="account_setup_divider_color">@*common:color/tr</color>
+    <color name="account_setup_xlarge_background_color">@*common:color/tr</color>
+    <color name="account_setup_button_bar_background">@*common:color/tr</color> 
+ 
+	<color name="holo_blue_dark">@*common:color/red</color>
+
+	<color name="drawer_item_activated_background_color">@*common:color/red</color>
+	<color name="list_background_color">@*common:color/tr</color>
+	
+	<color name="primary_color">@*common:color/ab</color>
+	<color name="primary_dark_color">@*common:color/sb</color>
+	<color name="primary_material_dark">@*common:color/midnight_primary</color>
+	<color name="swiped_bg_color">@*common:color/midnight_primary</color>
+	<color name="text_color_black">@color/secondary_text</color>
+	<color name="text_color_draft_red">@*common:color/red</color>
+
+	<color name="ap_overflow_badge_color">@*common:color/red</color>
+	<color name="divider_color">@*common:color/tr</color>
+	<color name="tip_teaser_bg">@*common:color/midnight_primary</color>
+    <color name="message_header_background_color">@*common:color/midnight_primary</color>
+
+	<color name="chips_dropdown_background_activated">@*common:color/midnight_primary</color>
+	<color name="chips_dropdown_background_pressed">@*common:color/red</color>
+
+	<color name="conv_header_add_label_background">@android:color/white</color>
+    <color name="conversation_item_blue_background_color">@*common:color/red</color>
+    <color name="conversation_item_grey_background_color">@*common:color/yellow</color>
+    <color name="conversation_item_grey_pressed_color">@*common:color/red</color>
+    <color name="conversation_item_grey_ripple_color">#30777777</color>
+	<color name="folder_teaser_icon_background">@*common:color/midnight_primary</color>
+	<color name="loading_messages_background_color">@*common:color/midnight_primary</color>
+	<color name="vacation_responder_window_background">@*common:color/midnight_primary</color>
+	
+	<color name="conversation_list_background_color">@*common:color/midnight_primary</color>
+</resources>

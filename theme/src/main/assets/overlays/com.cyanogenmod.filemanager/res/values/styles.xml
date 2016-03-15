@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing CMFileManager.apk's Styles-->
+<!--LAST REVISED ON: 10:31PM EST 17/02/2015-->
+
+<resources>
+    <style name="FileManager.Theme.Material.Light.NoActionBar" parent="@android:style/Theme.Material.NoActionBar" >
+		<item name="android:statusBarColor">@*common:color/sb</item>
+		<item name="android:navigationBarColor">@*common:color/ab</item>
+	</style>
+    <style name="FileManager.Theme.Material.Light" parent="@android:style/Theme.Material" >
+		<item name="android:statusBarColor">@*common:color/sb</item>
+		<item name="android:navigationBarColor">@*common:color/ab</item>
+        <item name="android:colorPrimary">@*common:color/ab</item>
+        <item name="android:colorPrimaryDark">@*common:color/sb</item>
+        <item name="android:colorAccent">@*common:color/midnight_theme</item>
+	</style>
+</resources>

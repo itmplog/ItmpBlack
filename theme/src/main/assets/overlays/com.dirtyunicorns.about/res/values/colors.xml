@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing About DirtyUnicorn's Colors-->
+
+<resources>
+    <color name="cardview_light_background">@*common:color/midnight_primary</color>
+    <color name="cardview_dark_background">@*common:color/midnight_primary</color>
+    <color name="primary">@*common:color/ab</color>
+    <color name="primary_dark">@*common:color/sb</color>
+    <color name="primary_light">@*common:color/ab</color>
+    <color name="accent">@*common:color/red</color>
+    <color name="dark_grey">@*common:color/midnight_text</color>
+	<color name="secondary">@*common:color/yellow</color>
+    <color name="cardsbg">@*common:color/tr</color>
+    <color name="light_bg">@*common:color/midnight_primary</color>
+</resources>

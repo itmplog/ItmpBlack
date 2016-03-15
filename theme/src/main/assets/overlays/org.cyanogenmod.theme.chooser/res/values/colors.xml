@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="detailedview_pager_background">@*common:color/midnight_primary</color>
+    <color name="title_author_background">@*common:color/midnight_primary</color>
+    <color name="offwhite">@*common:color/midnight_primary</color>
+    <color name="author_grey">@*common:color/midnight_theme</color>
+    <color name="primary">@*common:color/midnight_primary</color>
+    <color name="primary_dark">@*common:color/midnight_primary</color>
+    <color name="accent">@*common:color/midnight_secondary</color>
+    <color name="actionbar_text_color">#ffffffff</color>
+    <color name="primary_text_color">@*common:color/midnight_theme</color>
+    <color name="apply_button_text_color_enabled">#ffffffff</color>
+    <color name="apply_button_text_color_disabled">#ffbbbbbb</color>
+    <color name="apply_button_progress_color">@*common:color/yellow</color>
+    <color name="apply_button_default_color">@*common:color/midnight_primary</color>
+    <color name="apply_button_pressed_color">@*common:color/yellow</color>
+    <color name="designed_for_color">#ffff8888</color>
+    <color name="drawer_item_textcolor">#ffffffff</color>
+    <color name="drawer_item_default">@*common:color/midnight_primary</color>
+    <color name="drawer_item_pressed">@*common:color/yellow</color>
+    <color name="drawer_divider_line">@*common:color/midnight_primary</color>
+    <color name="default_circle_indicator_fill_color">@*common:color/midnight_theme</color>
+    <color name="default_circle_indicator_page_color">#ff455a64</color>
+    <color name="default_circle_indicator_stroke_color">#ffdddddd</color>
+</resources>

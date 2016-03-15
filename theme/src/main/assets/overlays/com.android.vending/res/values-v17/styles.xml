@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Google Play's Styles-->
+
+<resources>
+    <style name="OnboardTab" parent="@style/PlayMediumBoldText">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="OnboardText" parent="@style/PlayPlainText">
+        <item name="android:textSize">@dimen/play_onboard__onboard_v2_tutorial_page_title_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingExtra">@dimen/play_onboard__onboard_v2_tutorial_page_title_extra_line_spacing</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+</resources>

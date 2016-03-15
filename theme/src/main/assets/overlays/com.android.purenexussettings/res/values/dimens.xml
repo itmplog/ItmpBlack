@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing PureNexus Settings' Dimensions-->
+
+<resources>
+    <dimen name="cardview_elevate">1.0dip</dimen>
+    <dimen name="cardview_default_elevation">0.0dip</dimen>
+</resources>

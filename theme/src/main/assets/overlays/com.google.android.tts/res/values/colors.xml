@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Text-to-Speech's Colors-->
+
+<resources>
+    <color name="material_blue_grey_900">@*common:color/midnight_theme</color>
+    <color name="material_blue_grey_950">@*common:color/yellow</color>
+    <color name="switchbar_background_color">@*common:color/midnight_theme</color>
+</resources>

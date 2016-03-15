@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="action_mode_background_color">@*common:color/tr</color>
+
+    <color name="qm_background">@*common:color/tr</color>
+    <color name="qm_fading_edge_color">@*common:color/midnight_primary</color>
+    <color name="qm_from_text_color">#ffffffff</color>
+    <color name="qm_recv_timestamp_text_color">@*common:color/red</color>
+    <color name="qm_dialog_text_color">#ffffffff</color>
+    <color name="qm_count_color">@*common:color/red</color>
+
+    <color name="outgoing_message_bg">@*common:color/ab</color>
+    <color name="qm_reply">#ffffffff</color>
+</resources>

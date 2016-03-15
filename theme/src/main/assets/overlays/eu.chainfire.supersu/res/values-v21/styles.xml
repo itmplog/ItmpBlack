@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing SuperSU's Styles-->
+
+<resources>
+    <style name="Sherlock.__Theme.Material.Light" parent="@android:style/Theme.Material" />
+    <style name="Sherlock.__Theme.Material.Light.DarkActionBar" parent="@android:style/Theme.Material" />
+    <style name="Theme.SuperSU.Dialog.Prompt" parent="@android:style/Theme.Material.Dialog" />
+    <style name="Theme.SuperSU.Material.Light.DarkActionBar.Dialog" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorPrimary">@*common:color/midnight_theme</item>
+        <item name="android:colorPrimaryDark">@*common:color/ab</item>
+        <item name="android:colorAccent">@*common:color/midnight_theme</item>
+    </style>
+    <style name="Theme.SuperSU.Material.Light.DarkActionBar.Dialog.Alert" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:colorPrimary">@*common:color/ab</item>
+        <item name="android:colorPrimaryDark">@*common:color/sb</item>
+        <item name="android:colorAccent">@*common:color/midnight_theme</item>
+    </style>
+</resources>

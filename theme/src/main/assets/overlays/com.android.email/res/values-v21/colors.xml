@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Email's Colors-->
+
+<resources>
+    <color name="mini_drawer_activated_background_color">@*common:color/midnight_primary</color>
+    <color name="text_color_undo_notification">#ffc8c8c8</color>
+    <color name="text_color_undo_notification_description">#ffc8c8c8</color>
+</resources>

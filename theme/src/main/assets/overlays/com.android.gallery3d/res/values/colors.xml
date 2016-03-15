@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">@*common:color/ab</color>
+    <color name="primary_dark">@*common:color/sb</color>
+    <color name="accent">@*common:color/red_tr</color>
+    <color name="material_blue_grey_950">@*common:color/midnight_primary</color>
+    <color name="default_background">@*common:color/midnight_primary</color>
+    <color name="photo_background">@*common:color/midnight_primary</color>
+    <color name="album_background">@*common:color/midnight_primary</color>	
+    <color name="photo_placeholder">@*common:color/midnight_primary</color>
+    <color name="cache_background">@*common:color/midnight_primary</color>
+    <color name="cache_placeholder">@*common:color/midnight_primary</color>
+    <color name="albumset_background">@*common:color/midnight_primary</color>
+    <color name="albumset_placeholder">@*common:color/tr</color>
+    <color name="albumset_label_background">@*common:color/midnight_secondary</color>
+    <color name="fab">@*common:color/theme_color</color>
+    <color name="background_screen">@*common:color/midnight_primary</color>
+    <color name="filtershow_background">@*common:color/midnight_primary</color>
+    <color name="filtershow_categoryview_background">@*common:color/midnight_primary</color>
+	<color name="slideshow_background">@*common:color/midnight_primary</color> 
+	<color name="floating_action_button_touch_tint">@*common:color/red_tr</color>
+    <color name="background_toolbar">@*common:color/ab</color>
+    <color name="background_main_toolbar">@*common:color/ab</color>
+	<color name="bitmap_screennail_placeholder">@*common:color/tr</color>
+
+	
+	</resources>

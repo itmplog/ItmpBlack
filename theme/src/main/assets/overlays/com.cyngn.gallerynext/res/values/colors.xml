@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing GalleryNext's Colors-->
+
+<resources>
+	<color name="material_blue_grey_800">@*common:color/midnight_primary</color>
+    <color name="material_blue_grey_950">@*common:color/midnight_primary</color>
+	
+    <color name="primary">@*common:color/ab</color>
+    <color name="primary_dark">@*common:color/sb</color>
+    <color name="accent">@*common:color/midnight_theme</color>
+
+    <color name="poolside">@android:color/white</color>
+    <color name="alpha_poolside">#55ffffff</color>
+
+    <color name="floating_action_button_touch_tint">#66777777</color>
+</resources>

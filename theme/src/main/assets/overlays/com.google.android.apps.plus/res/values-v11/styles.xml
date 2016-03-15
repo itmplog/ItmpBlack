@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Google Plus' Styles-->
+
+<resources>
+    <style name="AppBaseTheme" parent="@*common:style/Theme.AppCompat">
+		<item name="android:backgroundTint">@color/white_background_color</item>
+		<item name="android:statusBarColor">@color/cdt0</item>
+	</style>
+    <style name="Oob.Dialog" parent="@*common:style/Theme.AppCompat.Dialog" />
+    <style name="StoriesEditTextTheme" parent="@*common:style/Theme.AppCompat.Dialog" />
+</resources>

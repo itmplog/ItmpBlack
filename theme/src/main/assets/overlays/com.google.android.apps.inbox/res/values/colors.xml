@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Inbox's Colors-->
+
+<resources>
+
+	
+	<!--Notification Colors-->
+		<color name="primary_text">@android:color/white</color>
+		
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing YouTube's Styles-->
+
+<resources>
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material.Light">
+        <item name="android:textColorPrimary">@color/theme_search_actionbar_text_color_secondary</item>
+		<item name="android:navigationBarColor">@*common:color/midnight_primary</item>
+        <item name="android:textColorSecondary">#5c5c5c</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Theme.YouTube.Settings" parent="@android:style/Theme.Material" />
+</resources>

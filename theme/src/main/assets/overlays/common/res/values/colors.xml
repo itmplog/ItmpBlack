@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+** theme colors
+** sky / ffa7dbd8
+** alizarin / ffe74c3c
+** amethyst / ff9b59b6
+** lunar / ff95a5a6
+** carrot / ffe67e22
+** nephritis / ff009587
+** river / ff2980b9
+*/
+-->
+<resources>
+    <color name="title_divider_color">#cdcdcd</color>
+    <color name="widget_subtitle_color">#ffffffff</color>
+    <color name="widget_title_color">#ffffffff</color>
+    <color name="midnight_primary">#070707</color>
+	<color name="tr">#E6070707</color>
+    <color name="midnight_secondary">#070707</color>
+    <color name="midnight_transparent">#31ffffff</color>
+    <color name="midnight_white">#ffffffff</color>
+    <color name="midnight_theme">#C01827</color>
+    <color name="qs_toggles_midnight">#ffffffff</color>
+    <color name="midnight_text">#b3ffffff</color>
+	<color name="material_deep_teal_500">@*common:color/midnight_theme</color>
+	<color name="red">@*common:color/midnight_theme</color>
+	<color name="red_tr">#E6C01827</color>
+	<color name="yellow">@*common:color/midnight_theme</color>
+	<color name="yellow_tr">@*common:color/red_tr</color>
+	<color name="blue">@*common:color/midnight_theme</color>
+	<color name="blue_tr">@*common:color/red_tr</color>
+	<color name="sb">#111111</color>
+	<color name="ab">#111111</color>
+	<color name="theme_color">@color/midnight_theme</color>
+	
+</resources>
+

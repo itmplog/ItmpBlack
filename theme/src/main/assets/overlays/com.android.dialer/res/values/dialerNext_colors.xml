@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing DialerNext's Colors-->
+
+<resources>
+    <color name="expanding_card_color">@*common:color/midnight_primary</color>
+    <color name="expanding_card_selected_color">@*common:color/midnight_primary</color>
+    <color name="expanding_card_start_gradient">@android:color/transparent</color>
+
+    <color name="dialer_activity_background">@*common:color/midnight_primary</color> <!--Background for Dialer-->
+	<color name="screen_bg_color">@*common:color/midnight_primary</color> <!--Background for contacts info-->
+
+    <color name="call_dismissed_primary_color">@color/dialer_theme_color</color>	
+
+    <color name="dialpad_call_button_color">@android:color/white</color>	
+	
+	<color name="caller_info_dialog_negative">@android:color/white</color>
+	
+	<color name="header_background_color">@color/dialer_theme_color</color> <!--Call history date header-->
+	<color name="header_border_color">@color/header_background_color</color> <!--Outlines on top and bottom of border-->
+    <color name="header_text_color">@android:color/white</color>
+
+	<color name="recent_name_color">@android:color/white</color> <!--History Contact Names-->
+    <color name="recent_title_color">@android:color/white</color>
+    <color name="recent_subtitle_color">@android:color/white</color>
+	
+    <color name="incall_slate_color">@*common:color/midnight_primary</color>
+    <color name="call_dismissed_state_color">@*common:color/midnight_primary</color>
+    <color name="quick_msg_item_bg_color">@*common:color/midnight_primary</color>
+    <color name="quick_msg_item_text_color">@android:color/white</color>
+    <color name="quick_msg_item_icon_color">@*common:color/midnight_theme</color>
+    <color name="quick_msg_footer_text_color">@android:color/white</color>
+    <color name="decline_screen_label_color">#80000000</color>	
+	
+	<!--Colors for trueCaller introduction dialog-->
+    <color name="caller_info_picker_description_text_color">@android:color/white</color>
+    <color name="caller_info_picker_disclaimer_text_color">@*common:color/midnight_theme</color>
+	
+    <color name="nav_tab_item_color">@color/dialer_theme_color</color>
+    <color name="nav_tab_item_selected_color">@*common:color/midnight_theme</color>
+    <color name="nav_tab_item_text_color">#99ffffff</color>
+    <color name="nav_tab_item_text_selected_color">#ffffffff</color>
+    <color name="nav_tab_item_underline_color">@*common:color/midnight_theme</color>
+</resources>

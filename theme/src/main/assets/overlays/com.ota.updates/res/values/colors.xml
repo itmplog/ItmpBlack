@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing OTAUpdater's Colors-->
+
+<resources>
+	<color name="material_deep_teal_200">@android:color/white</color>
+	
+	<color name="material_deep_teal_500">@*common:color/midnight_primary</color>
+	<color name="material_blue_grey_800">@*common:color/midnight_theme</color>
+	
+    <color name="material_blue_grey_900">@*common:color/midnight_primary</color>
+    <color name="material_blue_grey_950">@*common:color/midnight_primary</color>
+</resources>

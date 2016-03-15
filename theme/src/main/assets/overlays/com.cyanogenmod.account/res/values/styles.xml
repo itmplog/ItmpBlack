@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing CMAccount's Styles-->
+
+<resources>
+    <style name="Theme.CMAccount" parent="@android:style/Theme.Material" >
+			<item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+	</style>
+	<style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar">
+		<item name="android:background">@*common:drawable/settings_header</item>
+    </style>
+</resources>

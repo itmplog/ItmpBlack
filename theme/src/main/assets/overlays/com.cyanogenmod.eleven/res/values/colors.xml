@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Eleven's Colors-->
+
+<resources>
+    <color name="cardview_light_background">@*common:color/tr</color>
+    <color name="cardview_dark_background">@*common:color/midnight_primary</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+
+    <color name="accent">@*common:color/midnight_theme</color>
+    <color name="background_color">@*common:color/midnight_primary</color>
+    <color name="header_action_bar_color">@*common:color/ab</color>
+    <color name="header_shadow_color">#ea232323</color>
+    <color name="page_header_background">@*common:color/tr</color>
+    <color name="primary">@*common:color/midnight_theme</color>
+    <color name="primary_dark">@*common:color/ab</color>
+    <color name="primary_light">@*common:color/sb</color>
+
+    <color name="default_text_color">@android:color/white</color>
+    <color name="default_text_color_light">@android:color/white</color>
+    <color name="grid_list_item_text_color">@android:color/white</color>
+	
+    <color name="list_item_header_text_color">@android:color/white</color>
+    <color name="list_item_search_footer_text_color">@android:color/white</color>
+    <color name="list_item_text_color">@android:color/white</color>
+    <color name="list_item_text_color_light">@android:color/white</color>
+
+	<color name="no_results">@android:color/white</color>
+    <color name="smart_playlist_item_background">@*common:color/midnight_primary</color>
+</resources>

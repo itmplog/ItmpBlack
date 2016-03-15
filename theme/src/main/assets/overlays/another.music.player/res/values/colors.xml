@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notification_control_tint">#ffffffff</color>
+    <color name="ab_bg_color_dark">#ff212121</color>
+    <color name="abc_input_method_navigation_guard">@*common:color/yellow</color>
+    <color name="abc_search_url_text_normal">#ff7fa87f</color>
+    <color name="abc_search_url_text_pressed">@android:color/black</color>
+    <color name="abc_search_url_text_selected">@android:color/black</color>
+
+
+    <color name="bright_foreground_material_light">@*common:color/yellow</color>
+
+    <color name="default_button_background_dark">@*common:color/yellow</color>
+    <color name="default_button_background_light">@*common:color/yellow</color>
+    <color name="default_button_background_pressed_dark">#46c5c1ff</color>
+    <color name="default_button_background_pressed_light">#ff00ddff</color>
+
+
+    <color name="foreground_material_light">@*common:color/yellow</color>
+
+
+    <color name="primary_dark_material_dark">@*common:color/yellow</color>
+
+
+</resources>

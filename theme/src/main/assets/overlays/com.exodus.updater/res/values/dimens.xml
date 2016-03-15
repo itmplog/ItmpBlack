@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Exodus Updater's Dimensions-->
+
+<resources>
+	<dimen name="actionbar_subsettings_contentInsetStart">72dp</dimen>
+</resources>

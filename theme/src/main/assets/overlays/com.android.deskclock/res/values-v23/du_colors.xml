@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing DeskClock's DU Specific Colors-->
+
+<resources>
+    <color name="dialog_gray">@android:color/transparent</color>
+    <color name="hot_blue">@*common:color/red</color>
+    <color name="hot_blue_dark">@*common:color/theme_color</color>
+	<color name="icon_color_light">@*common:color/red</color>
+    <color name="status_bar">@android:color/transparent</color>
+    <color name="tab_indicator">@*common:color/red</color>
+    <color name="text_color_light">@android:color/white</color>
+    <color name="window_background">@*common:color/midnight_primary</color>
+    <color name="view_background">@*common:color/midnight_primary</color>
+</resources>

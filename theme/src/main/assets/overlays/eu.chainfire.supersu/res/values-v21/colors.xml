@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing SuperSU's Colors-->
+
+<resources>
+	<!--Action Bar, Accent and Background-->
+    <color name="material_teal_500">@*common:color/midnight_theme</color>
+    <color name="material_teal_900">@*common:color/ab</color>
+    <color name="material_teal_950">@*common:color/sb</color>
+    <color name="material_white">@*common:color/midnight_primary</color>
+	<!--Miscellaneous Chainfire Colors-->
+    <color name="material_teal_50">@*common:color/midnight_primary</color>
+    <color name="material_teal_100">@*common:color/midnight_primary</color>
+    <color name="material_teal_200">@*common:color/midnight_primary</color>
+    <color name="material_teal_300">@*common:color/midnight_primary</color>
+    <color name="material_teal_400">@*common:color/midnight_primary</color>
+    <color name="material_teal_600">@*common:color/midnight_primary</color>
+    <color name="material_teal_700">@*common:color/midnight_primary</color>
+    <color name="material_teal_800">@*common:color/midnight_primary</color>
+</resources>

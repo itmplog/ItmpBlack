@@ -1,0 +1,3 @@
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@*common:drawable/keyboard_background_lxx_dark1"
+    android:tint="@*common:color/midnight_primary" />

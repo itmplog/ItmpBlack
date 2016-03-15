@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="material_primary">@*common:color/midnight_theme</color>
+    <color name="material_dark">@*common:color/midnight_theme</color>
+	
+    <color name="bottom_bar_background">@*common:color/midnight_theme</color>
+	
+    <color name="button_background_pressed_color">#1affffff</color>
+    <color name="button_background_focused_color">#77ffffff</color>
+</resources>

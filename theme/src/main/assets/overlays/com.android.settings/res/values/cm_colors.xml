@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--Storage Summary Text Colors-->
+		<!--<color name="storage_summary_text_color">@*common:color/midnight_white</color>
+		<color name="storage_summary_used_text_color">@*common:midnight_white</color>-->
+
+    <color name="extrainfo_separator">@*common:color/tr</color>
+    <color name="extrainfo_cat_background">@*common:color/tr</color>
+    <color name="extrainfo_cat_text">@*common:color/red</color>
+    <color name="extrainfo_value_text">@*common:color/midnight_text</color>
+</resources>

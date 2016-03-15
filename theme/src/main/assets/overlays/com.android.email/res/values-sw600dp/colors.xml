@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Email's Colors-->
+
+<resources>
+    <color name="folder_list_divider_color">@*common:color/tr</color>
+    <color name="loading_messages_background_color">@*common:color/midnight_primary</color>
+    <color name="mail_activity_status_bar_color">@*common:color/sb</color>
+    <color name="conversation_list_background_color">@*common:color/midnight_primary</color>
+</resources>

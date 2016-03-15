@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Google Play's Attributes-->
+
+<resources>
+    <attr name="action_bottom_padding" format="dimension" />
+    <attr name="action_top_padding" format="dimension" />
+    <attr name="action_xpadding" format="dimension" />
+    <attr name="allowsCompactLineSpacing" format="boolean" />
+	<attr name="gap" format="dimension" />
+    <attr name="playAccessibilityClassOverride" format="string" />
+    <attr name="playCardBackgroundColor" format="color" />
+    <attr name="playCardClipToOutline" format="boolean" />
+    <attr name="playCardCornerRadius" format="dimension" />
+    <attr name="playCardElevation" format="dimension" />
+    <attr name="playCardInset" format="dimension" />
+    <attr name="star_bg_color" format="color" />
+    <attr name="star_color" format="color" />
+    <attr name="star_height" format="dimension" />
+</resources>

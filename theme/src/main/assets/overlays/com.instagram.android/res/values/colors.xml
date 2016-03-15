@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Instagram's Colors-->
+
+<resources>
+    <color name="white">@android:color/white</color>
+    <color name="black">@*common:color/tr</color>
+	
+    <color name="gray">@*common:color/tr</color>
+    <color name="grey_5">#ff9d9d9d</color>
+    <color name="grey_7">@*common:color/midnight_primary</color>
+    <color name="grey_8">@*common:color/midnight_primary</color>
+	
+    <color name="accent_blue_6">@*common:color/midnight_primary</color>
+    <color name="blue_3">@*common:color/tr</color>
+    <color name="blue_4">@*common:color/tr</color>
+    <color name="blue_5">@*common:color/midnight_primary</color>
+
+    <color name="blue_6">@*common:color/yellow_tr</color>
+	
+    <color name="dark_action_bar_top_highlight">@*common:color/midnight_primary</color>
+    <color name="status_bar_blue_background">@*common:color/midnight_primary</color>
+    <color name="result_bar_active_color">@*common:color/yellow_tr</color>
+    <color name="camera_shutter_outer_ring">@*common:color/yellow_tr</color>
+    <color name="camera_shutter_outer_ring_pressed">@*common:color/red_tr</color>
+</resources>

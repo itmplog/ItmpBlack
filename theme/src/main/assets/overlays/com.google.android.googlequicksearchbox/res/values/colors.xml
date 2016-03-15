@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Google Search's Colors-->
+
+<resources>
+	<!--Google Now Launcher App Drawer-->
+		<color name="apps_view_scrollbar_thumb_color">@*common:color/theme_color</color>
+		<color name="apps_view_section_text_color">@android:color/white</color>
+		<color name="container_fastscroll_thumb_inactive_color">@*common:color/theme_color</color>
+		<color name="container_fastscroll_thumb_active_color">@*common:color/theme_color</color>
+		<color name="launcher_accent_color">@*common:color/theme_color</color>
+		<color name="quantum_panel_bg_color">@*common:color/midnight_primary</color>
+		<color name="quantum_panel_bg_color_dark">@*common:color/midnight_primary</color>
+		<color name="quantum_panel_text_color">@android:color/white</color>
+		<color name="quantum_panel_text_shadow_color">@android:color/white</color>
+		<color name="widgets_cell_color">@*common:color/midnight_primary</color>
+	<!--Google Now On Tap Colors-->
+		<color name="go_to_google_now_background">@*common:color/tr</color>
+		<color name="go_to_google_now_background_ripple">@*common:color/theme_color</color>
+			
+	<!--Google App Text Colors-->
+		<color name="manage_accounts_text_color">@android:color/black</color>
+		<color name="search_plate_text_color">@android:color/white</color> <!--Includes Now Commands and Keyboard Search-->
+		<color name="secondary_text_normal">@android:color/white</color>
+		<color name="suggest_text_normal">@android:color/white</color>
+		<color name="suggest_text_disabled">@android:color/white</color>
+		<color name="suggest_text_inverse">@android:color/white</color>
+		<color name="selected_text_corpus_bar">#ff9d9d9d</color>
+
+		<color name="qp_text_b1">#BDBDBD</color>
+		<color name="qp_text_b2">#BDBDBD</color>
+		<color name="qp_text_b3">#BDBDBD</color>
+		<color name="qp_text_w1">#BDBDBD</color>
+
+		<color name="qp_drawer_text">@android:color/white</color>
+		<color name="qp_drawer_text_disabled">@android:color/white</color>
+		<color name="qp_drawer_icon_disabled">@android:color/white</color>
+
+	<!--Google App Background Colors and App Specific Tweaks-->
+		<!--Action Card Text Colors-->
+			<color name="action_card_separator_grey">@*common:color/theme_color</color>
+			<color name="action_card_medium_grey">@android:color/white</color>
+			<color name="action_card_dark_grey">#BDBDBD</color> <!--Includes error card's titles-->
+			<color name="action_card_light_blue">@android:color/white</color>
+		
+		<!--Voice Training Text Colors-->
+		    <color name="e300_main_text">@android:color/white</color>
+			<color name="e300_secondary_text">@android:color/white</color>
+			<color name="e300_hint_text">@android:color/white</color>
+			<color name="e300_inverse_text">@android:color/white</color>
+			<color name="e300_primary_action_text">@android:color/white</color>
+			<color name="e300_button_background">#0fffffff</color>
+
+			<color name="e300_disabled_color">#61ffffff</color>
+	
+		<color name="activity_background">@*common:color/midnight_primary</color>
+		<color name="audio_progress_bar_color">@*common:color/theme_color</color>
+		
+		<color name="card_bg">#E6353535</color>
+		<color name="card_bg_training">@*common:color/tr</color>
+		<color name="card_background">@*common:color/tr</color>
+		
+		<color name="configuration_list_background">@*common:color/tr</color>
+		<color name="done_text_color_normal">@android:color/white</color>
+		<color name="done_text_color_disabled">#80ffffff</color>
+		<color name="edit_event_text_highlight">@android:color/white</color>
+		<color name="ic_orb_listening">@android:color/white</color>
+		<color name="ic_orb_tts">@*common:color/theme_color</color>
+		<color name="lighthouse_app_choice_lowlight">@android:color/white</color>
+		<color name="mini_card_text">#BDBDBD</color>
+		<color name="mini_card_reminders_text">#BDBDBD</color>
+		<color name="mini_card_reminder">@*common:color/tr</color>
+		<color name="now_space_background">@*common:color/midnight_primary</color>
+		<color name="nowspace_header_bg_color">@*common:color/midnight_primary</color>
+		<color name="outline_color">@*common:color/tr</color>
+
+		<color name="qp_blue">#3F51B5</color>
+		<color name="qp_blue_dark">#3F51B5</color>
+		
+		<color name="e300_primary_color_dark">#3F51B5</color>
+		<color name="e300_primary_color">#3F51B5</color>
+		
+		<color name="qp_status_none">@*common:color/red</color>
+		<color name="qp_card_separator">@*common:color/tr</color>
+
+		<color name="qp_drawer_background">@*common:color/tr</color>
+		<color name="qp_drawer_icon">@android:color/white</color>
+		<color name="qp_drawer_selected">@*common:color/theme_color</color>
+		<color name="recurrence_picker_background">@*common:color/tr</color>
+		<color name="recurrence_bubble_text_normal">@android:color/white</color>
+		<color name="recurrence_edit_event_text">@android:color/white</color>
+		<color name="recurrence_edit_event_text_hint">@android:color/white</color>
+		<color name="recurrence_edit_event_text_highlight">@android:color/white</color>
+		<color name="recurrence_edit_event_text_link">@android:color/white</color>
+		<color name="recurrence_edit_event_button_background_stroke">@android:color/white</color>
+		<color name="recurrence_pressed">#330066ff</color>
+
+		<color name="search_plate_suggestion_divider_background">@*common:color/tr</color>
+		<color name="setup_wizard_color_accent_light">@*common:color/theme_color</color>
+		<color name="spinner_pressed_state_color">@*common:color/midnight_primary</color>
+		<color name="suggestion_divider_background">@*common:color/tr</color>
+		<color name="vs_level_guide">@*common:color/red_tr</color>
+		<color name="white">@*common:color/tr</color>
+		<color name="widget_card_background">@*common:color/tr</color>
+		<color name="widget_text_panel">@*common:color/tr</color>
+
+		<color name="setup_text">#ff9d9d9d</color>
+		<color name="snackbar_background">#52050d11</color>
+		<color name="horizontal_bar_separator">#0bffffff</color>
+    	<color name="qp_divider">@*common:color/tr</color>
+        <color name="qp_feedback_overlay">#0dffffff</color>
+        <color name="quick_action_separator_white">@*common:color/tr</color>
+        <color name="searchbox_suggestion_divider_background">@*common:color/tr</color>
+        <color name="suggestion_primary_text">@android:color/white</color>
+        <color name="suggestion_secondary_text">@android:color/white</color>		
+		
+		</resources>

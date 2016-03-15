@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Browser's Colors-->
+
+<resources>
+    <color name="black">@android:color/white</color>
+    <color name="primary">@*common:color/ab</color>
+    <color name="primary_dark">@*common:color/sb</color>
+    <color name="accent">@*common:color/yellow</color>
+    <color name="text_color">@*common:color/midnight_text</color>
+    <color name="floating_action_button_touch_tint">@*common:color/yellow</color>
+	
+    <color name="tabFaviconBackground">@*common:color/midnight_text</color>
+    <color name="tabFocusHighlight">@*common:color/midnight_text</color>
+	
+    <color name="qc_normal">@*common:color/red</color>
+    <color name="qc_selected">@*common:color/red</color>
+    <color name="qc_sub">@*common:color/midnight_text</color>
+    <color name="qc_tab_nr">@*common:color/midnight_text</color>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing CMUpdater.apk's Styles-->
+<!--LAST REVISED ON: 12:26AM EST 06/02/2015-->
+
+<resources>
+    <style name="Theme.Main" parent="@android:style/Theme.Material">
+        <item name="android:colorBackground">@*common:color/midnight_primary</item>
+        <item name="android:statusBarColor">@*common:color/sb</item>
+		<item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+	</style>
+	<style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar">
+		<item name="android:background">@*common:drawable/settings_header</item>
+    </style>
+</resources>

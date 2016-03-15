@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Material">
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="android:colorPrimary">@*common:color/midnight_secondary</item>
+        <item name="android:colorPrimaryDark">@*common:color/sb</item>
+        <item name="android:colorAccent">@*common:color/midnight_theme</item>
+        <item name="android:statusBarColor">@*common:color/sb</item>
+		<item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+    </style>
+	<style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar">
+		<item name="android:background">@*common:drawable/settings_header</item>
+    </style>
+    <style name="ChooserToolbarStyle" parent="@android:style/Widget.Material.Toolbar">
+        <item name="android:background">@*common:drawable/settings_header</item>
+        <item name="android:titleTextAppearance">@style/ChooserActionBarTitleText</item>
+    </style>
+    <style name="ChooserActionBarTitleText" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_text_color</item>
+    </style>
+</resources>

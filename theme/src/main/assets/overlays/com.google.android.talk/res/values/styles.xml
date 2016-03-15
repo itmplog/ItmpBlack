@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Hangouts' Styles-->
+
+<resources>
+    <style name="AccountsSwitcher">
+		<item name="android:textColor">@android:color/white</item>
+	</style>
+    <style name="AccountsSwitcher.AccountDisplayNameStyle" parent="@style/AccountsSwitcher">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+	<style name="Theme.Hangouts.Settings" parent="@android:style/Theme.Material">
+		<item name="android:statusBarColor">@color/default_status_bar_color</item>
+	</style>
+    <style name="Theme.CallerId" parent="@android:style/Theme.Material">
+        <item name="android:textColorPrimary">@color/quantum_black_text</item>
+        <item name="android:textColor">@color/quantum_black_secondary_text</item>
+    </style>
+</resources>

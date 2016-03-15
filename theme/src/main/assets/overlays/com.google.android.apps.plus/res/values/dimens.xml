@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing Google Plus' Dimensions-->
+
+<resources>
+    <dimen name="navigation_bar_x_drawable_padding">10.0dip</dimen>
+    <dimen name="navigation_bar_y_drawable_padding">-5.0dip</dimen>
+    <dimen name="navigation_bar_y_padding">5.0dip</dimen>
+    <dimen name="navigation_bar_y_top_padding">7.0dip</dimen>
+    <dimen name="notification_count_size">18.0dip</dimen>
+    <dimen name="sharekit_close_button_padding">18.0dip</dimen>
+    <dimen name="text_size_10">10.0sp</dimen>
+    <dimen name="text_size_12">12.0sp</dimen>
+    <dimen name="text_size_16">16.0sp</dimen>
+</resources>

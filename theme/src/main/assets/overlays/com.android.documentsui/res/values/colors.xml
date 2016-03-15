@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You are editing DocumentsUI's Colors-->
+
+<resources>
+	<color name="material_grey_50">@*common:color/midnight_primary</color>
+    <color name="material_grey_300">@*common:color/midnight_theme</color>
+
+	<color name="item_doc_grid_background">@*common:color/midnight_primary</color>
+    <color name="item_doc_grid_protect_background">#88000000</color>
+    <color name="item_doc_grid_overlay_activated">#88000000</color>
+    <color name="item_doc_grid_overlay_disabled">#88ffffff</color>
+    <color name="item_doc_list_overlay_disabled">#88ffffff</color>
+	
+    <color name="item_doc_list_background_activated">@*common:color/midnight_primary</color>
+</resources>
